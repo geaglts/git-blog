@@ -1,0 +1,13 @@
+@import 'vars';
+
+.Container {
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Author {
+    font-size: 12pt;
+    color: $viridian-green;
+}

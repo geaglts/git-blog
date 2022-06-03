@@ -1,0 +1,28 @@
+@import 'vars';
+
+.Container {
+    margin-top: 8px;
+    position: relative;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 2px 2px 4px 1px rgba($xiketic, 0.4);
+}
+
+.CopyIcon {
+    position: absolute;
+    right: 0;
+    $icon-size: 30px;
+    width: $icon-size;
+    height: $icon-size;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    color: $ivory;
+    background-color: transparent;
+    cursor: pointer;
+
+    &:hover {
+        background-color: rgba($ivory, 0.1);
+    }
+}

@@ -11,7 +11,7 @@
 .CopyIcon {
     position: absolute;
     right: 0;
-    $icon-size: 30px;
+    $icon-size: 35px;
     width: $icon-size;
     height: $icon-size;
     display: flex;
@@ -21,6 +21,7 @@
     color: $ivory;
     background-color: transparent;
     cursor: pointer;
+    border-bottom-left-radius: 4px;
 
     &:hover {
         background-color: rgba($ivory, 0.1);

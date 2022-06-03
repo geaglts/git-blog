@@ -5,9 +5,20 @@
     padding: 0;
     box-sizing: border-box;
     font-family: $font-roboto-mono;
+    max-width: 700px;
+    margin: 0 auto;
 }
 
-body {
-    width: 60%;
-    margin: 0 auto;
+p {
+    line-height: 1.5;
+}
+
+p + p {
+    margin-top: 12px;
+}
+
+@media (max-width: 720px) {
+    body {
+        width: 100%;
+    }
 }

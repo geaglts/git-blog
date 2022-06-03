@@ -1,9 +1,9 @@
 import Head from 'next/head';
 import type { AppProps } from 'next/app';
 
-import Header from '@components/Header';
-import Footer from '@components/Footer';
-import Layout from '@components/Layout';
+import Header from '@containers/Header';
+import Footer from '@containers/Footer';
+import Layout from '@containers/Layout';
 
 import '@styles/global.scss';
 

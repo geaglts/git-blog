@@ -1,7 +1,7 @@
 {
     "name": "git-learning",
-    "version": "1.0.0",
-    "description": "",
+    "version": "0.0.1",
+    "description": "Git blog made with love for all of us ❤️",
     "main": "index.js",
     "scripts": {
         "dev": "next dev",
@@ -10,17 +10,19 @@
         "lint": "next lint"
     },
     "keywords": [],
-    "author": "",
+    "author": "Miguel Angel Toledo Santiago <geaglts@gmail.com>",
     "license": "ISC",
     "dependencies": {
-        "@types/node": "^17.0.36",
-        "@types/react": "^18.0.9",
-        "@types/react-syntax-highlighter": "^15.5.1",
         "next": "^12.1.6",
         "react": "^18.1.0",
         "react-dom": "^18.1.0",
         "react-syntax-highlighter": "^15.5.0",
         "sass": "^1.52.1",
         "typescript": "^4.7.2"
+    },
+    "devDependencies": {
+        "@types/node": "^17.0.36",
+        "@types/react": "^18.0.9",
+        "@types/react-syntax-highlighter": "^15.5.1"
     }
 }

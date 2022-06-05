@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 43.4 43.4">
+    <defs>
+        <style>.cls-1{isolation:isolate;}.cls-2{mix-blend-mode:darken;fill:url(#radial-gradient);}</style>
+        <radialGradient id="radial-gradient" cx="24.5" cy="25.5" r="21.7" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#f5a866" />
+            <stop offset="1" stop-color="#f54d27" />
+        </radialGradient>
+    </defs>
+    <g class="cls-1">
+        <g id="GitLogo">
+            <path class="cls-2" d="M45.41,23.41,26.59,4.59a2.7,2.7,0,0,0-3.81,0l-4.09,4.1,4.45,4.45A3,3,0,0,1,24,13a3,3,0,0,1,3,3,3,3,0,0,1-.14.86l5.28,5.28A3,3,0,0,1,33,22a3,3,0,1,1-3,3,3.09,3.09,0,0,1,.14-.86l-4.3-4.62V31.65A3,3,0,0,1,27,34a3,3,0,1,1-4-2.82V18.82a2.94,2.94,0,0,1-1.86-3.68l-4.45-4.45L3.59,23.78a2.7,2.7,0,0,0,0,3.81L22.41,46.41a2.7,2.7,0,0,0,3.81,0L45.41,27.22A2.7,2.7,0,0,0,45.41,23.41Z" transform="translate(-2.8 -3.8)" />
+        </g>
+    </g>
+</svg>

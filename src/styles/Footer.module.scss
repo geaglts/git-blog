@@ -5,9 +5,41 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .Author {
     font-size: 12pt;
     color: $viridian-green;
+}
+
+.SocialLinkContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 30px);
+    gap: 8px;
+    margin-top: 8px;
+}
+
+.SocialLink {
+    display: block;
+    transition: transform 250ms ease;
+    &:hover {
+        transition: transform 350ms ease;
+        transform: translateY(-4px);
+    }
+}
+
+@media (max-width: 720px) {
+    .Container {
+        margin-top: 12px;
+    }
+
+    .SocialLinkContainer {
+        gap: 20px;
+    }
+
+    .Author {
+        text-align: center;
+        padding: 0 12px;
+    }
 }

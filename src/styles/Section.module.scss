@@ -1,0 +1,14 @@
+.Container {
+    h3 {
+        margin: 10px 0;
+
+        &::before {
+            content: '🌼';
+            margin-right: 5px;
+        }
+    }
+
+    div + p {
+        margin-top: 10px;
+    }
+}

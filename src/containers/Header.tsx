@@ -10,7 +10,7 @@ const Header = () => {
             <div className={styles.TextContent}>
                 <h1>
                     <span className={styles.GitText}>Git</span> x{' '}
-                    <span className={styles.AuthorText}>Gxlts</span>
+                    <span className={styles.AuthorText}>Geaglts</span>
                 </h1>
                 <p className={styles.Description}>
                     Espero que lo poquito que se te pueda ayudar a reforzar tu aprendizaje en{' '}

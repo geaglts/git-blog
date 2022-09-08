@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 import TextCode from '@components/TextCode';
 import Section from '@containers/Section';
 
@@ -6,6 +8,9 @@ const Home = () => {
         <>
             <p>Hola 👋, bienvenidx al mundo de git.</p>
             <br />
+            <Section title="🥭Temas">
+                <Link href="/tags">Tags</Link>
+            </Section>
             <Section title="🥭Que es Git?">
                 <p>
                     Git es un controlador de versiones, en resumen nos ayuda a registrar
